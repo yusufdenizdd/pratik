@@ -45,6 +45,7 @@ namespace Ders1
             foreach (string kurs in kurslar)
             {
                 Console.WriteLine(kurs);
+                
             }
         }
     }
