@@ -77,20 +77,33 @@ namespace Ders1
             urun1.Adi = "Elma";
             urun1.Fiyati = 15;
             urun1.Aciklama = "Amasya elması";
+            urun1.StokAdedi = 10;
 
             Product urun2 = new Product();
             urun2.Adi = "Karpuz";
             urun2.Fiyati = 80;
             urun2.Aciklama = "Diyarbakır karpuzu";
+            urun2.StokAdedi = 5;
 
             Product[] urunler = new Product[]{
                 urun1, urun2
             };
 
+            CartManager cartManager = new CartManager();
+
             foreach (Product urun in urunler)
             {
-                Console.WriteLine("ürünün adı: " + urun.Adi + "\n" + "ürünün fiyatı: " + urun.Fiyati + "\n -----------");
+                Console.WriteLine("ürünün adı: " + urun.Adi + "\n" + "ürünün fiyatı: " + urun.Fiyati);
+                cartManager.Ekle(urun);
+                Console.WriteLine("-----------");
             }
+
+            DortIslem dortIslem = new DortIslem();
+            dortIslem.Topla(5, 6);
+            dortIslem.Topla(6, 9);
+
+
+
         }
 
 
