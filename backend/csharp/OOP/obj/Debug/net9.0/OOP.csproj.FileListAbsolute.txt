@@ -1,0 +1,15 @@
+/Users/yusuf/Documents/GitHub/pratik/backend/csharp/OOP/bin/Debug/net9.0/OOP
+/Users/yusuf/Documents/GitHub/pratik/backend/csharp/OOP/bin/Debug/net9.0/OOP.deps.json
+/Users/yusuf/Documents/GitHub/pratik/backend/csharp/OOP/bin/Debug/net9.0/OOP.runtimeconfig.json
+/Users/yusuf/Documents/GitHub/pratik/backend/csharp/OOP/bin/Debug/net9.0/OOP.dll
+/Users/yusuf/Documents/GitHub/pratik/backend/csharp/OOP/bin/Debug/net9.0/OOP.pdb
+/Users/yusuf/Documents/GitHub/pratik/backend/csharp/OOP/obj/Debug/net9.0/OOP.GeneratedMSBuildEditorConfig.editorconfig
+/Users/yusuf/Documents/GitHub/pratik/backend/csharp/OOP/obj/Debug/net9.0/OOP.AssemblyInfoInputs.cache
+/Users/yusuf/Documents/GitHub/pratik/backend/csharp/OOP/obj/Debug/net9.0/OOP.AssemblyInfo.cs
+/Users/yusuf/Documents/GitHub/pratik/backend/csharp/OOP/obj/Debug/net9.0/OOP.csproj.CoreCompileInputs.cache
+/Users/yusuf/Documents/GitHub/pratik/backend/csharp/OOP/obj/Debug/net9.0/OOP.sourcelink.json
+/Users/yusuf/Documents/GitHub/pratik/backend/csharp/OOP/obj/Debug/net9.0/OOP.dll
+/Users/yusuf/Documents/GitHub/pratik/backend/csharp/OOP/obj/Debug/net9.0/refint/OOP.dll
+/Users/yusuf/Documents/GitHub/pratik/backend/csharp/OOP/obj/Debug/net9.0/OOP.pdb
+/Users/yusuf/Documents/GitHub/pratik/backend/csharp/OOP/obj/Debug/net9.0/OOP.genruntimeconfig.cache
+/Users/yusuf/Documents/GitHub/pratik/backend/csharp/OOP/obj/Debug/net9.0/ref/OOP.dll
