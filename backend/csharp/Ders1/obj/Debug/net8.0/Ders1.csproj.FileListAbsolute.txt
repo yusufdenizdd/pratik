@@ -1,0 +1,15 @@
+/Users/yusuf/Documents/GitHub/pratik/backend/csharp/Ders1/bin/Debug/net8.0/Ders1
+/Users/yusuf/Documents/GitHub/pratik/backend/csharp/Ders1/bin/Debug/net8.0/Ders1.deps.json
+/Users/yusuf/Documents/GitHub/pratik/backend/csharp/Ders1/bin/Debug/net8.0/Ders1.runtimeconfig.json
+/Users/yusuf/Documents/GitHub/pratik/backend/csharp/Ders1/bin/Debug/net8.0/Ders1.dll
+/Users/yusuf/Documents/GitHub/pratik/backend/csharp/Ders1/bin/Debug/net8.0/Ders1.pdb
+/Users/yusuf/Documents/GitHub/pratik/backend/csharp/Ders1/obj/Debug/net8.0/Ders1.GeneratedMSBuildEditorConfig.editorconfig
+/Users/yusuf/Documents/GitHub/pratik/backend/csharp/Ders1/obj/Debug/net8.0/Ders1.AssemblyInfoInputs.cache
+/Users/yusuf/Documents/GitHub/pratik/backend/csharp/Ders1/obj/Debug/net8.0/Ders1.AssemblyInfo.cs
+/Users/yusuf/Documents/GitHub/pratik/backend/csharp/Ders1/obj/Debug/net8.0/Ders1.csproj.CoreCompileInputs.cache
+/Users/yusuf/Documents/GitHub/pratik/backend/csharp/Ders1/obj/Debug/net8.0/Ders1.sourcelink.json
+/Users/yusuf/Documents/GitHub/pratik/backend/csharp/Ders1/obj/Debug/net8.0/Ders1.dll
+/Users/yusuf/Documents/GitHub/pratik/backend/csharp/Ders1/obj/Debug/net8.0/refint/Ders1.dll
+/Users/yusuf/Documents/GitHub/pratik/backend/csharp/Ders1/obj/Debug/net8.0/Ders1.pdb
+/Users/yusuf/Documents/GitHub/pratik/backend/csharp/Ders1/obj/Debug/net8.0/Ders1.genruntimeconfig.cache
+/Users/yusuf/Documents/GitHub/pratik/backend/csharp/Ders1/obj/Debug/net8.0/ref/Ders1.dll

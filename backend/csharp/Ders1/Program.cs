@@ -4,6 +4,7 @@ namespace Ders1
 {
     class Program
     {
+
         static void Main(string[] args)
         {
             Console.WriteLine("Hello, World!");
@@ -80,6 +81,7 @@ namespace Ders1
             urun1.StokAdedi = 10;
 
             Product urun2 = new Product();
+
             urun2.Adi = "Karpuz";
             urun2.Fiyati = 80;
             urun2.Aciklama = "Diyarbakır karpuzu";
