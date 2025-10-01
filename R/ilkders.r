@@ -64,8 +64,24 @@ b < a
 a < b && a > 75
 a < b && a < 75
 
+
+# bu arada dersi kaçırdım
+
+
 # satır sayısı
 ncol(iris)
 
 # sütun sayısı
 nrow(iris)
+
+# özet bilgi
+str(iris)
+
+
+# install.packages("arules")
+# install.packages("caret")
+# yüklü olan paketlerin görüntülenmesi: search()
+# kütüphanelerin yüklenmesi: library(arules)
+# mevcut çalışma alanımızda ne var: ls()
+# çalışma dizinini görüntüle getwd()
+# çalışma dizinini değiştir setwd('dosyayolu')
