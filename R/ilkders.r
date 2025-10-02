@@ -67,6 +67,26 @@ a < b && a < 75
 
 # bu arada dersi kaçırdım
 
+# hazır veri kümeleri
+data()
+show(iris)
+# view(adult)
+iris
+# tüm transactionlar gözüküyor
+
+# 2.hazır veri kümeleri
+data()
+show(Groceries)
+show(Adult)
+view(Adult)
+Adult
+
+attributes(iris)
+
+attributes(iris)$names()
+
+colnames(iris)
+row.names(iris)
 
 # satır sayısı
 ncol(iris)
