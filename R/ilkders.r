@@ -163,9 +163,11 @@ getwd()
 
 
 # sorular
-# 1- bir paket yüklendikten sonra ne olur?
+# 1- bir paket yüklendikten sonra R oturumuna nasıl tanıtılır?
 # 2- x=45 6. değişkeni yapıp bu değişkenşerin tümünü integara dönüştür
 # 3-Bir paket yüklendikten sonra R oturumuna nasıl tanıtılır
-# 4-R da mevcut çalışma alanını görüntüle
-# 5-a b c isimli nesneleri tanımşla
+# 4-R da mevcut çalışma alanını görüntüleyiniz
+# 5-a b c isimli nesneler tanımlayınız (değer veriniz)
 # 6- R çalışma alanı C bla workspace
+# 7- R'ın mevcut çalışma alanını «C://belgeler/R/workspace» olarak belirleyiniz (yorum satırında yazın, kodu çalıştırmayın)
+# 8- mevcut yaratılmış nesneleri görüntüleyiniz
