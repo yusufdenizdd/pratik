@@ -1,5 +1,20 @@
 # 1ekim
 
+# BİLGİ: Paket kurulumu ve kütüphanelerin çağrılması gibi işlemlerin
+# kodun en başında yapılması, kodun okunabilirliği ve çalışması için en iyi pratiktir.
+# Bu komutları sadece bir kere çalıştırmanız yeterlidir. Bilgisayarınıza bir kere kurulduktan sonra
+# tekrar tekrar install.packages demenize gerek yoktur. Bu yüzden yorum satırı içine alıyorum.
+# Paketleri SADECE BİR KERE kurmak için bu bölümü çalıştırın
+# install.packages("arules", repos = "https://cloud.r-project.org")
+# install.packages("caret", repos = "https://cloud.r-project.org")
+# install.packages("lava", repos = "https://cloud.r-project.org") # Eksik olan paket
+# Kütüphaneleri oturuma tanıtmak için library() kullanılır.
+# Groceries ve Adult veri setlerini kullanabilmek için arules paketini en başta yüklüyoruz.
+library(arules)
+library(caret)
+
+
+
 ## Online R compiler to run R program online
 ## Print "Try programiz.pro" message
 
@@ -29,25 +44,34 @@ x <- 4
 rm(x, y)
 
 # değişkenlerin içeriğini görüntülemek
+x <- 4
 show(x)
 print(x)
-x
+
 
 # veri türü öğrenmek
 class(x)
 a <- "veri madenciliği"
+class(a)
 
 # tür dönüşümleri
 # R'da numeric default olarak double'dır
-as.integer()
-as.numeric()
+# DÜZELTME: Bu fonksiyonlar bir argüman (değişken) olmadan tek başına çalışmaz.
+# Örnek kullanım göstermek için bunları yorum satırı yapıyorum.
+# as.integer()
+# as.numeric()
 
-# hata verecektir
+# Örnek:
+ornek_sayi <- 15.7
+ornek_tamsayi <- as.integer(ornek_sayi) # 15 olarak dönüştürür
+print(ornek_tamsayi)
+
+
 durum <- TRUE
-as.numeric(durum)
+as.numeric(durum) # Bu satır dönüşümü yapar ama bir değişkene atamaz. Sonuç 1'dir.
 
 durum <- FALSE
-durum <- as.numeric(durum)
+durum <- as.numeric(durum) # durum değişkeninin değeri artık 0 olur.
 
 is.numeric(durum)
 
@@ -61,15 +85,16 @@ typeof(x)
 x <- as.character(x)
 typeof(x)
 
-# Değişken türünü doğrudan öğrenmek istiyorsak typof()
+# DÜZELTME: Yorumdaki yazım hatası düzeltildi. typof -> typeof
+# Değişken türünü doğrudan öğrenmek istiyorsak typeof()
 x <- 125
 as.character(x)
-# hafızada tumadık: aş. şekilde dene
+# hafızada tutmadık: aş. şekilde dene
 x <- as.character(x)
 # veritipini test edek
 typeof(x)
 
-typof(sonuc)
+# typeof(sonuc)
 
 
 
@@ -86,8 +111,9 @@ a < b && a < 75
 
 # hazır veri kümeleri
 data()
+# R ile gelen temel veri setlerinden birini gösterelim
 show(iris)
-# view(adult)
+# view(adult) # DÜZELTME: R'da fonksiyonlar büyük/küçük harfe duyarlıdır. Doğrusu View() şeklindedir.
 iris
 # tüm transactionlar gözüküyor
 
@@ -97,42 +123,46 @@ head(iris, 10)
 
 
 # 2.hazır veri kümeleri
-data()
+# BİLGİ: Bu veri setleri "arules" paketi ile gelir.
+# Bu yüzden kodun en başında library(arules) komutunu çalıştırdık.
+data(Groceries)
+data(Adult)
+
 show(Groceries)
 show(Adult)
-view(Adult)
-Adult
+# View(Adult)
+# BİLGİ: 'transactions' nesneleri View() ile değil, inspect() ile incelenir.
+# Tüm veriyi ekrana basmamak için head() ile ilk 10 satıra bakalım.
+inspect(head(Adult, 10))
+# DÜZELTME: view değil, View olacak (Büyük V harfi ile).
+# RStudio gibi bir IDE'de çalıştırıldığında veri setini yeni bir sekmede tablo olarak açar.
+
 
 attributes(iris)
 
-attributes(iris)$names()
-
+# DÜZELTME: attributes(iris)$names() şeklinde bir kullanım doğrudan isimleri vermez.
+# Sütun isimleri için doğru kullanım names(iris) veya colnames(iris) şeklindedir.
+# attributes(iris)$names()
+names(iris)
 colnames(iris)
-row.names(iris)
+
+# DÜZELTME: row.names değil, rownames olmalı (boşluksuz ve küçük harfle).
+rownames(iris)
 
 # satır sayısı
-ncol(iris)
+# DÜZELTME: ncol sütun (column), nrow satır (row) sayısını verir. Yorumlar düzeltildi.
+ncol(iris) # Sütun sayısı
 
 # sütun sayısı
-nrow(iris)
+nrow(iris) # Satır sayısı
 
 # özet bilgi
 str(iris)
 
-
+# 3. R Paketler
+# BİLGİ: Bu komutlar en başa taşındı.
 # install.packages("arules")
 # install.packages("caret")
-# yüklü olan paketlerin görüntülenmesi: search()
-# kütüphanelerin yüklenmesi: library(arules)
-# mevcut çalışma alanımızda ne var: ls()
-# çalışma dizinini görüntüle getwd()
-# çalışma dizinini değiştir setwd('dosyayolu')
-
-# 3. R Paketler
-# syntax install.packages
-install.packages("arules")
-
-install.packages("caret")
 
 
 # ara yüzden Tools->Install Packages
@@ -144,7 +174,8 @@ search()
 
 # paketlerin oturuma tanıtılması
 # kütüphanelerin yüklenmesi
-library(arules)
+# BİLGİ: Bu komut en başa taşındı.
+# library(arules)
 
 
 
@@ -159,7 +190,9 @@ getwd()
 
 
 # çalışma dizinini değiştir
-# setwd('C:\Users\gkara\Dozuments\R\www')
+# DÜZELTME: R'da dosya yollarını belirtirken ters taksim (\) yerine düz taksim (/) kullanmalısınız.
+# Aksi halde ters taksimi bir "kaçış karakteri" olarak algılar ve hata verir.
+# setwd('C:/Users/gkara/Documents/R/www')
 
 
 # sorular
