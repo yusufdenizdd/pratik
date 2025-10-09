@@ -1,0 +1,15 @@
+/Users/yusuf/Documents/GitHub/pratik/frontendmasters/backend/ilkkurs/MyFirstApp/bin/Debug/net8.0/MyFirstApp
+/Users/yusuf/Documents/GitHub/pratik/frontendmasters/backend/ilkkurs/MyFirstApp/bin/Debug/net8.0/MyFirstApp.deps.json
+/Users/yusuf/Documents/GitHub/pratik/frontendmasters/backend/ilkkurs/MyFirstApp/bin/Debug/net8.0/MyFirstApp.runtimeconfig.json
+/Users/yusuf/Documents/GitHub/pratik/frontendmasters/backend/ilkkurs/MyFirstApp/bin/Debug/net8.0/MyFirstApp.dll
+/Users/yusuf/Documents/GitHub/pratik/frontendmasters/backend/ilkkurs/MyFirstApp/bin/Debug/net8.0/MyFirstApp.pdb
+/Users/yusuf/Documents/GitHub/pratik/frontendmasters/backend/ilkkurs/MyFirstApp/obj/Debug/net8.0/MyFirstApp.GeneratedMSBuildEditorConfig.editorconfig
+/Users/yusuf/Documents/GitHub/pratik/frontendmasters/backend/ilkkurs/MyFirstApp/obj/Debug/net8.0/MyFirstApp.AssemblyInfoInputs.cache
+/Users/yusuf/Documents/GitHub/pratik/frontendmasters/backend/ilkkurs/MyFirstApp/obj/Debug/net8.0/MyFirstApp.AssemblyInfo.cs
+/Users/yusuf/Documents/GitHub/pratik/frontendmasters/backend/ilkkurs/MyFirstApp/obj/Debug/net8.0/MyFirstApp.csproj.CoreCompileInputs.cache
+/Users/yusuf/Documents/GitHub/pratik/frontendmasters/backend/ilkkurs/MyFirstApp/obj/Debug/net8.0/MyFirstApp.sourcelink.json
+/Users/yusuf/Documents/GitHub/pratik/frontendmasters/backend/ilkkurs/MyFirstApp/obj/Debug/net8.0/MyFirstApp.dll
+/Users/yusuf/Documents/GitHub/pratik/frontendmasters/backend/ilkkurs/MyFirstApp/obj/Debug/net8.0/refint/MyFirstApp.dll
+/Users/yusuf/Documents/GitHub/pratik/frontendmasters/backend/ilkkurs/MyFirstApp/obj/Debug/net8.0/MyFirstApp.pdb
+/Users/yusuf/Documents/GitHub/pratik/frontendmasters/backend/ilkkurs/MyFirstApp/obj/Debug/net8.0/MyFirstApp.genruntimeconfig.cache
+/Users/yusuf/Documents/GitHub/pratik/frontendmasters/backend/ilkkurs/MyFirstApp/obj/Debug/net8.0/ref/MyFirstApp.dll
