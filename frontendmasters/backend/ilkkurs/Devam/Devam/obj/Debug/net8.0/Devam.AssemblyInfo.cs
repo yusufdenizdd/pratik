@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Devam")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0383835ce8c209b5625cbfd5ceb792b914d52181")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7927156132379cc47fe889f9f22231f79ae17269")]
 [assembly: System.Reflection.AssemblyProductAttribute("Devam")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Devam")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

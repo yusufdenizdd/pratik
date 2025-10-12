@@ -1,0 +1,15 @@
+/Users/yusuf/Documents/GitHub/pratik/frontendmasters/backend/ilkkurs/Devam/Devam/bin/Debug/net8.0/Devam
+/Users/yusuf/Documents/GitHub/pratik/frontendmasters/backend/ilkkurs/Devam/Devam/bin/Debug/net8.0/Devam.deps.json
+/Users/yusuf/Documents/GitHub/pratik/frontendmasters/backend/ilkkurs/Devam/Devam/bin/Debug/net8.0/Devam.runtimeconfig.json
+/Users/yusuf/Documents/GitHub/pratik/frontendmasters/backend/ilkkurs/Devam/Devam/bin/Debug/net8.0/Devam.dll
+/Users/yusuf/Documents/GitHub/pratik/frontendmasters/backend/ilkkurs/Devam/Devam/bin/Debug/net8.0/Devam.pdb
+/Users/yusuf/Documents/GitHub/pratik/frontendmasters/backend/ilkkurs/Devam/Devam/obj/Debug/net8.0/Devam.GeneratedMSBuildEditorConfig.editorconfig
+/Users/yusuf/Documents/GitHub/pratik/frontendmasters/backend/ilkkurs/Devam/Devam/obj/Debug/net8.0/Devam.AssemblyInfoInputs.cache
+/Users/yusuf/Documents/GitHub/pratik/frontendmasters/backend/ilkkurs/Devam/Devam/obj/Debug/net8.0/Devam.AssemblyInfo.cs
+/Users/yusuf/Documents/GitHub/pratik/frontendmasters/backend/ilkkurs/Devam/Devam/obj/Debug/net8.0/Devam.csproj.CoreCompileInputs.cache
+/Users/yusuf/Documents/GitHub/pratik/frontendmasters/backend/ilkkurs/Devam/Devam/obj/Debug/net8.0/Devam.sourcelink.json
+/Users/yusuf/Documents/GitHub/pratik/frontendmasters/backend/ilkkurs/Devam/Devam/obj/Debug/net8.0/Devam.dll
+/Users/yusuf/Documents/GitHub/pratik/frontendmasters/backend/ilkkurs/Devam/Devam/obj/Debug/net8.0/refint/Devam.dll
+/Users/yusuf/Documents/GitHub/pratik/frontendmasters/backend/ilkkurs/Devam/Devam/obj/Debug/net8.0/Devam.pdb
+/Users/yusuf/Documents/GitHub/pratik/frontendmasters/backend/ilkkurs/Devam/Devam/obj/Debug/net8.0/Devam.genruntimeconfig.cache
+/Users/yusuf/Documents/GitHub/pratik/frontendmasters/backend/ilkkurs/Devam/Devam/obj/Debug/net8.0/ref/Devam.dll
