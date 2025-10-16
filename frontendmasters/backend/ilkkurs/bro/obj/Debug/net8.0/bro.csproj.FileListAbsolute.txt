@@ -1,0 +1,15 @@
+/Users/yusuf/Documents/GitHub/pratik/frontendmasters/backend/ilkkurs/bro/bin/Debug/net8.0/bro
+/Users/yusuf/Documents/GitHub/pratik/frontendmasters/backend/ilkkurs/bro/bin/Debug/net8.0/bro.deps.json
+/Users/yusuf/Documents/GitHub/pratik/frontendmasters/backend/ilkkurs/bro/bin/Debug/net8.0/bro.runtimeconfig.json
+/Users/yusuf/Documents/GitHub/pratik/frontendmasters/backend/ilkkurs/bro/bin/Debug/net8.0/bro.dll
+/Users/yusuf/Documents/GitHub/pratik/frontendmasters/backend/ilkkurs/bro/bin/Debug/net8.0/bro.pdb
+/Users/yusuf/Documents/GitHub/pratik/frontendmasters/backend/ilkkurs/bro/obj/Debug/net8.0/bro.GeneratedMSBuildEditorConfig.editorconfig
+/Users/yusuf/Documents/GitHub/pratik/frontendmasters/backend/ilkkurs/bro/obj/Debug/net8.0/bro.AssemblyInfoInputs.cache
+/Users/yusuf/Documents/GitHub/pratik/frontendmasters/backend/ilkkurs/bro/obj/Debug/net8.0/bro.AssemblyInfo.cs
+/Users/yusuf/Documents/GitHub/pratik/frontendmasters/backend/ilkkurs/bro/obj/Debug/net8.0/bro.csproj.CoreCompileInputs.cache
+/Users/yusuf/Documents/GitHub/pratik/frontendmasters/backend/ilkkurs/bro/obj/Debug/net8.0/bro.sourcelink.json
+/Users/yusuf/Documents/GitHub/pratik/frontendmasters/backend/ilkkurs/bro/obj/Debug/net8.0/bro.dll
+/Users/yusuf/Documents/GitHub/pratik/frontendmasters/backend/ilkkurs/bro/obj/Debug/net8.0/refint/bro.dll
+/Users/yusuf/Documents/GitHub/pratik/frontendmasters/backend/ilkkurs/bro/obj/Debug/net8.0/bro.pdb
+/Users/yusuf/Documents/GitHub/pratik/frontendmasters/backend/ilkkurs/bro/obj/Debug/net8.0/bro.genruntimeconfig.cache
+/Users/yusuf/Documents/GitHub/pratik/frontendmasters/backend/ilkkurs/bro/obj/Debug/net8.0/ref/bro.dll
