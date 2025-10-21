@@ -52,3 +52,4 @@ employeeRoute.MapPost(string.Empty, (Employee employee) =>
 app.UseHttpsRedirection();
 
 app.Run();
+public partial class Program { }
