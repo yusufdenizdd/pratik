@@ -1,3 +1,8 @@
+var employees = new List<Employee>();
+
+employees.Add(new Employee { Id = 1, FirstName = "John", LastName = "Doe" });
+employees.Add(new Employee { Id = 2, FirstName = "Jane", LastName = "Doe" });
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -14,31 +19,36 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+var employeeRoute = app.MapGroup("employees");
+
+employeeRoute.MapGet(string.Empty, () =>
+{
+    return Results.Ok(employees);
+});
+
+employeeRoute.MapGet("{id:int}", (int id) =>
+{
+    var employee = employees.SingleOrDefault(e => e.Id == id);
+    if (employee == null)
+    {
+        return Results.NotFound();
+    }
+    return Results.Ok(employee);
+});
+
+employeeRoute.MapPost(string.Empty, (Employee employee) =>
+{
+    employee.Id = employees.Max(e => e.Id) + 1;
+    employees.Add(employee);
+    return Results.Created($"/employees/{employee.Id}", employee);
+});
+
+// app.MapPost("/employees/{id}", ([FromRoute] int id, [FromBody] Employee employee, [FromServices] ILogger<Program> logger, [FromQuery] string search) => {
+//     return Results.Ok(employee);
+// });
+
+
+
 app.UseHttpsRedirection();
 
-var summaries = new[]
-{
-    "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
-};
-
-app.MapGet("/weatherforecast", () =>
-{
-    var forecast =  Enumerable.Range(1, 5).Select(index =>
-        new WeatherForecast
-        (
-            DateOnly.FromDateTime(DateTime.Now.AddDays(index)),
-            Random.Shared.Next(-20, 55),
-            summaries[Random.Shared.Next(summaries.Length)]
-        ))
-        .ToArray();
-    return forecast;
-})
-.WithName("GetWeatherForecast")
-.WithOpenApi();
-
 app.Run();
-
-record WeatherForecast(DateOnly Date, int TemperatureC, string? Summary)
-{
-    public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
-}
