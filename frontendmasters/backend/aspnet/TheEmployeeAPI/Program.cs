@@ -1,7 +1,8 @@
-var employees = new List<Employee>();
-
-employees.Add(new Employee { Id = 1, FirstName = "John", LastName = "Doe" });
-employees.Add(new Employee { Id = 2, FirstName = "Jane", LastName = "Doe" });
+var employees = new List<Employee>
+{
+    new Employee { Id = 1, FirstName = "John", LastName = "Doe" },
+    new Employee { Id = 2, FirstName = "Jane", LastName = "Doe" }
+};
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -19,11 +20,11 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-var employeeRoute = app.MapGroup("employees");
+var employeeRoute = app.MapGroup("/employees");
 
 employeeRoute.MapGet(string.Empty, () =>
 {
-    return Results.Ok(employees);
+    return employees;
 });
 
 employeeRoute.MapGet("{id:int}", (int id) =>
@@ -38,18 +39,13 @@ employeeRoute.MapGet("{id:int}", (int id) =>
 
 employeeRoute.MapPost(string.Empty, (Employee employee) =>
 {
-    employee.Id = employees.Max(e => e.Id) + 1;
+    employee.Id = employees.Max(e => e.Id) + 1; // We're not using a database, so we need to manually assign an ID
     employees.Add(employee);
     return Results.Created($"/employees/{employee.Id}", employee);
 });
 
-// app.MapPost("/employees/{id}", ([FromRoute] int id, [FromBody] Employee employee, [FromServices] ILogger<Program> logger, [FromQuery] string search) => {
-//     return Results.Ok(employee);
-// });
-
-
-
 app.UseHttpsRedirection();
 
 app.Run();
+
 public partial class Program { }
