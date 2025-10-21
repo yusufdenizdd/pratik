@@ -13,7 +13,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Ders1")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
+<<<<<<< HEAD
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7916bd4cdb6e442bd348e8a66acded81e9b094c1")]
+=======
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2a726e2473473d086c3668488a3ea0df8a77101d")]
+>>>>>>> parent of 872e0ea (MyFirstWebApp init)
 [assembly: System.Reflection.AssemblyProductAttribute("Ders1")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Ders1")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
