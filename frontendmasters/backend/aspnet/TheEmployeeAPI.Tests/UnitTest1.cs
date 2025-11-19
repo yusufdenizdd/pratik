@@ -48,4 +48,13 @@ public class BasicTests : IClassFixture<WebApplicationFactory<Program>>
 
         Assert.Equal(HttpStatusCode.BadRequest, response.StatusCode);
     }
+
+    [Fact]
+    public async Task UpdateEmployee_ReturnsOkResult()
+    {
+        var client = _factory.CreateClient();
+        var response = await client.PutAsJsonAsync("/employees/1", new Employee { FirstName = "John", LastName = "Doe" });
+
+        response.EnsureSuccessStatusCode();
+    }
 }
