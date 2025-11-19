@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "+pJx5cJiY9k=",
+  "dgSpecHash": "UcsOa4Oa6Jo=",
   "success": true,
   "projectFilePath": "/Users/yusuf/Documents/GitHub/pratik/backend/csharp/Ders2/Ders2/Ders2.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/yusuf/.nuget/packages/microsoft.netcore.app.ref/8.0.21/microsoft.netcore.app.ref.8.0.21.nupkg.sha512",
+    "/Users/yusuf/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.21/microsoft.aspnetcore.app.ref.8.0.21.nupkg.sha512",
+    "/Users/yusuf/.nuget/packages/microsoft.netcore.app.host.osx-arm64/8.0.21/microsoft.netcore.app.host.osx-arm64.8.0.21.nupkg.sha512"
+  ],
   "logs": []
 }
